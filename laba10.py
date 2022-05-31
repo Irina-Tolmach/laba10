@@ -1,11 +1,12 @@
 '''
-Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° 10
+Tolmacheva Irina, 10
 '''
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
 df = pd.read_csv('udemy_courses.csv')
-free = df[df["price"] == 0]
+free = df[df["pricegit status"] == 0]
 short = df['content_duration']
 
 sortedd = free.sort_values(by=['num_subscribers'])
